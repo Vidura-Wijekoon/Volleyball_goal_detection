@@ -1,0 +1,14 @@
+# Volleyball Tracking System - Python Dependencies
+
+# Core Computer Vision
+opencv-python>=4.5.0
+
+# Numerical Computing
+numpy>=1.21.0
+
+# GUI Support (Tkinter + PIL)
+pillow>=9.0.0
+
+# Optional: For enhanced tracking (if using DaSiamRPN)
+# Note: DaSiamRPN ONNX models must be downloaded separately
+# Run: python download_dasiamrpn.py

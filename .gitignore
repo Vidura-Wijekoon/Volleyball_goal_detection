@@ -1,0 +1,31 @@
+# Large Data & Videos
+.trae/
+video_goal_analysis/frames/
+video_goal_analysis/output/A_view_complete/
+*.mp4
+*.avi
+*.mov
+
+# AI Models
+video_goal_analysis/*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.trae/
+*.swp
+
+# Tracking Results (optional, usually kept if small, but let's keep CSVs if user wants)
+# video_goal_analysis/output/*.csv
+# video_goal_analysis/output/*.json
